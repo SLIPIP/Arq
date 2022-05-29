@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Styles.css">
+  <link rel="stylesheet" href="StylesR.css">
+  <title>Arquitectos</title>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/index.html" style="font-family: Ailerons;">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/Projects.html" style="font-family: Ailerons;">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/About.html" style="font-family: Ailerons;">Nosotros</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="/Contact.html" style="font-family: Ailerons;">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="containerBack w-100 vh-100 d-flex align-items-end">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 mx-auto text-center py-5">
+          <h4 class="text-white">Descubrir más</h4>
+          <a href="#Services"><i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Navbar-->
+  <section class="p-0" id="Services">
+    <div class="containerserv w-100 vh-100 d-flex align-items-center" style="overflow-y: scroll;">
+      <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+      </div>
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <h4 id="list-item-1">Item 1</h4>
+        <p>...</p>
+        <h4 id="list-item-2">Item 2</h4>
+        <p>...</p>
+        <h4 id="list-item-3">Item 3</h4>
+        <p>...</p>
+        <h4 id="list-item-4">Item 4</h4>
+        <p>...</p>
+      </div>
+    </div>
+  </section>
+
+
+  </div>
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="row">
+          <div class="col-lg-12 text-center py-5 pb-5">
+            <h3>NOS ENFOCAMOS EN LO MÁS IMPORTANTE</h3>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 imgH1 shadow"></div>
+        <div class="col-6 col-sm-4 text-start py-5">
+          <h2>Exterior</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="w-100 d-none d-md-block pb-5"></div>
+        <div class="col-6 col-sm-4 text-end py-5">
+          <h2>Interior</h2>
+          <p class="LP">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+            the industry's standard dummy text ever since the 1500s.</p>
+        </div>
+        <div class="col-6 col-sm-4 imgH2 shadow"></div>
+      </div>
+    </div>
+  </section>
+  <section id="FormHome">
+    <div class="container w-75 my-5 b-5 shadow rounded">
+      <div class="row">
+        <div class="col bg">
+          <div class="container form-icons py-5">
+            <div class="row align-items-center pe-2">
+              <div class="col-4 px-5 pb-5 my-5"><a href="#"><i class="fa-solid fa-location-dot"></i></a></div>
+              <div class="col-5 px-5 pb-5 ">
+                <p class="text-white">Viena 243, Versalles, 48310 Puerto Vallarta, Jal.</p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-4 px-5 pb-5 my-3"><a href="#"><i class="fa-solid fa-phone"></i></a></div>
+              <div class="col-4 px-5 pb-5">
+                <p class="text-white">322 142 36 57</p>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-4 px-5 pb-5 my-3"><a href="#"><i class="fa-solid fa-envelope"></i></a></div>
+              <div class="col-4 px-5 pb-5">
+                <p class="text-white">arquitects@sheratonvallarta.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mx-3">
+          <h2 class="text-start py-5 pb-2" style="font-size: 3rem; font-family: Ailerons;">Contáctanos</h2>
+          <form action="#">
+            <div class="row">
+              <div class="col">
+                <label for="" class="pb-2">Nombre</label>
+                <input type="text" class="form-control" placeholder="Andres" aria-label="Nombre">
+              </div>
+              <div class="col pb-2">
+                <label for="" class="pb-2">Celular</label>
+                <input type="text" class="form-control" placeholder="322-777-77-77" aria-label="Celular">
+              </div>
+              <div class="col-lg-12 py-4">
+                <label for="">Correo</label>
+                <input type="email" class="form-control" placeholder="correo@ejemplo.com" id="inputEmail3">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Mensaje</label>
+              <textarea class="form-control" id=""
+                placeholder="Hola, quisiera obtener más información sobre la empresa y sus proyectos."
+                rows="3"></textarea>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <div class="col-auto my-3 mb-5"><button type="submit" class="btn btn-dark">Enviar</button></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer-->
+  <div class="container-fluid">
+    <footer class="py-2">
+      <div class="row">
+        <div class="col-2">
+          <img src="/Imgs/Logo.png" height="90" width="140px">
+        </div>
+
+        <div class="col-2">
+          <h5>Explorar</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Proyectos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Nosotros</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h5>Visitanos</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">
+                <p>Viena 243, Versalles, 48310 Puerto Vallarta, Jal.</p>
+              </a></li>
+            <h5>Legal</h5>
+            <li class="nav-item mb-2"><a href="Privacy.html" class="nav-link p-0 text-muted">Aviso de Privacidad</a>
+            </li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terminos y Condiciones</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h5>Correo</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">arquitects@dominio.com</a></li>
+            <h5>Telefono</h5>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">322 146 36 57</a></li>
+          </ul>
+        </div>
+
+        <div class="col-4">
+          <div class="border-start border-dark p-2">
+            <h4>Seguinos</h4>
+            <ul class="list-unstyled d-flex">
+              <li class=""><a class="link-dark" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between border-top">
+        <p>© 2022 Arquitectos. | Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </div>
+  <!--footer-->
+  <script src="/Functions-dynamics.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/320565c5e9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
