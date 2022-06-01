@@ -5,6 +5,9 @@
     background-size: cover;
     position: relative;
 }
+.color-warning{
+   color: #ffc107;
+}
 nav li a{
     font-size: 1.5rem;
     margin-right: 15px;
@@ -41,8 +44,8 @@ nav li a::after{
     background-size: '';
 }
 .containerserv{
-    background-image: linear-gradient(rgba(5, 7, 12, 0.592),rgba(5, 7, 12, 0.592)),
-    url(/Imgs/projects.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.911),rgba(5, 7, 12, 0.911)),
+    url(/Imgs/projects2.jpg);
     background-position: center;
     background-size: 'cover';
 }
